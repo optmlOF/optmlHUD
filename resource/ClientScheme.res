@@ -386,7 +386,6 @@ Scheme
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
 	}
 
-
 	//
 	//////////////////////// FONTS /////////////////////////////
 	//
@@ -1758,6 +1757,11 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+	// These are the custom HUD fonts
+	
+		// TommySoftMedium fonts
+		
 		"TommySoftMedium12"
 		{
 			"1"
@@ -1776,13 +1780,212 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"TommySoftMedium24"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Medium"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		"TommySoftMedium32"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Medium"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		"TommySoftMedium36"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Medium"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		"TommySoftMedium42"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Medium"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		"TommySoftMedium48"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Medium"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		"TommySoftMedium56"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Medium"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
+		
+		// TommySoftBold fonts
+		
+		"TommySoftBold12"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Bold"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		"TommySoftBold16"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Bold"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		"TommySoftBold24"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Bold"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		"TommySoftBold32"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Bold"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		"TommySoftBold36"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Bold"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		"TommySoftBold42"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Bold"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		"TommySoftBold48"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Bold"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		"TommySoftBold56"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Bold"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
+		
+		// TommySoftBlack fonts
+		
+		"TommySoftBlack12"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Black"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		"TommySoftBlack16"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Black"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		"TommySoftBlack24"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Black"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		"TommySoftBlack32"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Black"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		"TommySoftBlack36"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Black"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		"TommySoftBlack42"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Black"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		"TommySoftBlack48"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Black"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		"TommySoftBlack56"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Black"
+				"tall"		"56"
+				"antialias" "1"
+			}
+		}
 	}
 	
-	// These are the custom HUD fonts
-	
-	
-	
-
 	//
 	//////////////////// BORDERS //////////////////////////////
 	//
@@ -4586,8 +4789,8 @@ Scheme
 		}
 		"8"
 		{
-			"font" "resource/fonts/MADE Tommy Soft ExtraBold Outline PERSONAL USE.otf"
-			"name" "MADETommySoftOutline-ExtraBold"
+			"font" "resource/fonts/MADE Tommy Soft Bold PERSONAL USE.otf"
+			"name" "MADETommySoft-Bold"
 		}
 		"9"
 		{

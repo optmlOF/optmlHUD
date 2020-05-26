@@ -204,11 +204,11 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage	Alpha		"255"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
+	Animate	PlayerStatusHealthBonusImage	Alpha		"255"		Linear 0.0 0.4
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.4 0.8
 	Animate PlayerStatusHealthValue			fgcolor		"25 200 55 255"	Linear 0.0 0.0
 
-	RunEvent HudHealthBonusPulseLoop	0.6
+	RunEvent HudHealthBonusPulseLoop	0.8
 }
 
 // call to loop HudHealthBonusPulse
@@ -229,11 +229,11 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.4
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.4 0.8
 	Animate PlayerStatusHealthValue			fgcolor		"250 50 5 255" Linear 0.0 0.0
 	
-	RunEvent HudHealthDyingPulseLoop	0.25
+	RunEvent HudHealthDyingPulseLoop	0.8
 }
 
 // call to loop HudHealthDyingPulse

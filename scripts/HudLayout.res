@@ -126,11 +126,16 @@
 	{
 		"fieldName" "HudWeaponSelection"
 		"ypos" 	"16"	[$WIN32]
+		"ypos" 	"32"	[$X360]
 		"visible" "1"
 		"enabled" "1"
 		"SmallBoxSize" "32"
 		"MediumBoxWide"	"80"
+		"MediumBoxWide_hidef"	"80"
 		"MediumBoxTall"	"50"
+		"MediumBoxTall_hidef"	"50"
+		"MediumBoxWide_lodef"	"70"
+		"MediumBoxTall_lodef"	"50"
 		"LargeBoxWide" "70"
 		"LargeBoxTall" "40"
 		"BoxGap" "8"

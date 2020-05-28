@@ -1855,6 +1855,15 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"TommySoftBold18"
+		{
+			"1"
+			{
+				"name"		"MADETommySoft-Bold"
+				"tall"		"18"
+				"antialias" "1"
+			}
+		}
 		"TommySoftBold24"
 		{
 			"1"

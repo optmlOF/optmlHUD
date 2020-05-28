@@ -3,10 +3,10 @@
 	"HudKills"
 	{
 		"fieldName"			"HudKills"
-		"xpos"				"c-100"
-		"ypos"				"r460"
+		"xpos"				"c-420"
+		"ypos"				"r510"
 		"zpos"				"3"
-		"wide"				"300"
+		"wide"				"500"
 		"tall"				"100"
 		"visible"			"1"
 		"enabled"			"1"
@@ -37,7 +37,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ShadedBarP1"
 		"xpos"				"11"
-		"ypos"				"10"
+		"ypos"				"37"
 		"zpos"				"2"
 		"wide"				"180"
 		"tall"				"22"
@@ -49,7 +49,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ShadedBarP2"
-		"xpos"				"11"
+		"xpos"				"200"
 		"ypos"				"37"
 		"zpos"				"2"
 		"wide"				"180"
@@ -65,19 +65,36 @@
 		"font"				"TommySoftBold16"
 		"labelText"			"%PlayingToLabel%"
 		"textAlignment"		"center"
-		"xpos"				"c-210"
+		"xpos"				"c-218"
 		"ypos"				"42"
 		"zpos"				"3"
 		"wide"				"325"
 		"tall"				"50"
 		"proportionalToParent"	"1"
+		"fgcolor_override"	"White"
+	}
+	
+	"PlayingToLabelBG"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"			"PlayingToLabelBG"
+		"font"				"TommySoftBold16"
+		"labelText"			"%PlayingToLabel%"
+		"textAlignment"		"center"
+		"xpos"				"c-217"
+		"ypos"				"43"
+		"zpos"				"3"
+		"wide"				"325"
+		"tall"				"50"
+		"proportionalToParent"	"1"
+		"fgcolor_override"	"Black"
 	}
 	
 	"AvatarImage"
 	{
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"			"AvatarImage"
-		"xpos"				"13"
+		"xpos"				"202"
 		"ypos"				"39"
 		"zpos"				"3"
 		"wide"				"18"
@@ -94,13 +111,14 @@
 		"font"				"TommySoftBold16"
 		"labelText"			"%playername%"
 		"textAlignment"		"west"
-		"xpos"				"35"
+		"xpos"				"224"
 		"ypos"				"24"	[$WIN32]
 		"zpos"				"3"
 		"wide"				"140"	[$WIN32]
 		"tall"				"50"
 		"autoResize"		"0"
 		"pinCorner"			"0"
+		"fgcolor_override"	"White"
 	}
 	
 	"KillsLabel"
@@ -110,13 +128,14 @@
 		"font"				"TommySoftBold16"
 		"labelText"			"%Kills%"
 		"textAlignment"		"east"
-		"xpos"				"45"
+		"xpos"				"234"
 		"ypos"				"24"	[$WIN32]
 		"zpos"				"3"
 		"wide"				"140"	[$WIN32]
 		"tall"				"50"
 		"autoResize"		"0"
 		"pinCorner"			"0"
+		"fgcolor_override"	"White"
 	}
 	
 	"TopAvatarImage"
@@ -124,7 +143,7 @@
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"			"TopAvatarImage"
 		"xpos"				"13"
-		"ypos"				"12"
+		"ypos"				"39"
 		"zpos"				"10"
 		"wide"				"18"
 		"tall"				"18"
@@ -140,12 +159,13 @@
 		"labelText"			"%topplayername%"
 		"textAlignment"		"west"
 		"xpos"				"35"
-		"ypos"				"-4"	[$WIN32]
+		"ypos"				"23"	[$WIN32]
 		"zpos"				"3"
 		"wide"				"140"	[$WIN32]
 		"tall"				"50"
 		"autoResize"		"0"
 		"pinCorner"			"0"
+		"fgcolor_override"	"White"
 	}
 	
 	"TopKillsLabel"
@@ -156,11 +176,12 @@
 		"labelText"			"%TopKills%"
 		"textAlignment"		"east"
 		"xpos"				"45"
-		"ypos"				"-4"	[$WIN32]
+		"ypos"				"23"	[$WIN32]
 		"zpos"				"3"
 		"wide"				"140"	[$WIN32]
 		"tall"				"50"
 		"autoResize"		"0"
 		"pinCorner"			"0"
+		"fgcolor_override"	"White"
 	}
 }

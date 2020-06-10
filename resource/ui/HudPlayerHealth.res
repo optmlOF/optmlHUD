@@ -103,4 +103,20 @@
 		"font"			"TommySoftBold32"
 		"fgcolor"		"Black"
 	}	
+	"PlayerStatusHealthValueBG2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBG2"
+		"xpos"			"1"
+		"ypos"			"1"	[$WIN32]
+		"zpos"			"5"
+		"wide"			"250"
+		"tall"			"120"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"TommySoftBold32"
+		"fgcolor"		"Black"
+	}
 }

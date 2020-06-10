@@ -386,6 +386,7 @@ Scheme
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
 	}
 
+
 	//
 	//////////////////////// FONTS /////////////////////////////
 	//
@@ -931,6 +932,30 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		"MainMenuFont"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"MainMenuFontBIG"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"25"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
 		GameUIButtons
 		{
 			"1"	//[$WIN32]
@@ -1994,7 +2019,7 @@ Scheme
 			}
 		}
 	}
-	
+
 	//
 	//////////////////// BORDERS //////////////////////////////
 	//
@@ -3907,6 +3932,17 @@ Scheme
 			"draw_corner_height" 	"4"
 		}
 
+		"MainMenuButton"
+		{
+			"1"	[$WIN32]
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}	
 		MainMenuButtonDepressed
 		{
 			"bordertype"			"scalable_image"
